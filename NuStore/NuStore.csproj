@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 	<PackAsTool>true</PackAsTool>
 	<ToolCommandName>nustore</ToolCommandName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -16,6 +16,8 @@
     <PackageId>nustore</PackageId>
     <Copyright>MIT</Copyright>
     <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+    <LangVersion>9</LangVersion>
+    <PackageVersion>1.1.6</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
