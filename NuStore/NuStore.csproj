@@ -2,22 +2,22 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
 	<PackAsTool>true</PackAsTool>
 	<ToolCommandName>nustore</ToolCommandName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.1.5</Version>
-    <PackageProjectUrl>https://github.com/aspark/nustore</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/tiggerite/nustore</PackageProjectUrl>
     <Title>NuStore</Title>
     <Description>NuStore download nuget packages which declared in the *.deps.json, and save to store folder, for minify .net core publish size</Description>
     <PackageTags>deps nuget package store folder</PackageTags>
-    <RepositoryUrl>https://github.com/aspark/nustore</RepositoryUrl>
-    <Authors>aspark</Authors>
+    <RepositoryUrl>https://github.com/tiggerite/nustore</RepositoryUrl>
+    <Authors>tiggerite</Authors>
     <PackageId>nustore</PackageId>
     <Copyright>MIT</Copyright>
     <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
-    <LangVersion>9</LangVersion>
-    <PackageVersion>1.1.6</PackageVersion>
+    <LangVersion>11</LangVersion>
+    <PackageVersion>1.1.7</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,9 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommandLineParser" Version="2.5.0" />
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
     <PackageReference Include="ILRepack.NETStandard" Version="2.0.4" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
   </ItemGroup>
 
 </Project>
